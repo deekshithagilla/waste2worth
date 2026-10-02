@@ -312,7 +312,7 @@ export default function App() {
   // If Home Page (Landing before Login)
   if (activeSection === 'home') {
     return (
-      <div className="min-h-screen bg-[#0b1329] flex flex-col selection:bg-emerald-500 selection:text-white">
+      <div className="min-h-screen bg-white flex flex-col selection:bg-emerald-500 selection:text-white">
         {notification && (
           <div className="fixed bottom-5 right-5 z-50 animate-bounce">
             <div className={`px-4 py-2.5 rounded-xl shadow-xl text-xs font-bold text-white flex items-center space-x-2 ${
