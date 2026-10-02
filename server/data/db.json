@@ -1,0 +1,333 @@
+{
+  "companies": [
+    {
+      "id": "comp_a",
+      "name": "Company A",
+      "email": "companya@gmail.com",
+      "password": "password123",
+      "industry": "Steel & Metallurgy",
+      "location": "Maharashtra",
+      "description": "Produces iron and steel products. Produces iron scrap and needs fly ash as raw material.",
+      "verified": true
+    },
+    {
+      "id": "comp_b",
+      "name": "Company B",
+      "email": "companyb@gmail.com",
+      "password": "password123",
+      "industry": "Cement & Construction",
+      "location": "Gujarat",
+      "description": "Manufactures cement and concrete. Produces fly ash and needs iron scrap for processing.",
+      "verified": true
+    },
+    {
+      "id": "comp_c",
+      "name": "Company C",
+      "email": "companyc@gmail.com",
+      "password": "password123",
+      "industry": "Furniture & Woodwork",
+      "location": "Karnataka",
+      "description": "Manufactures wooden furniture. Produces wood waste and needs plastic waste.",
+      "verified": true
+    },
+    {
+      "id": "comp_d",
+      "name": "Company D",
+      "email": "companyd@gmail.com",
+      "password": "password123",
+      "industry": "Plastics & Packaging",
+      "location": "Tamil Nadu",
+      "description": "Produces plastic products. Produces plastic waste and needs paper waste.",
+      "verified": true
+    },
+    {
+      "id": "comp_e",
+      "name": "Company E",
+      "email": "companye@gmail.com",
+      "password": "password123",
+      "industry": "Paper & Cardboard",
+      "location": "Telangana",
+      "description": "Recycles and manufactures paper. Produces paper waste and needs wood waste.",
+      "verified": true
+    }
+  ],
+  "wasteListings": [
+    {
+      "id": "waste_1",
+      "companyId": "comp_a",
+      "companyName": "Company A",
+      "companyEmail": "companya@gmail.com",
+      "title": "Iron Scrap",
+      "category": "Metals & Metallurgy",
+      "quantity": 300,
+      "unit": "Tons",
+      "pricePerUnit": 15,
+      "purityPercentage": 98,
+      "frequency": "Recurring (Monthly)",
+      "location": "Maharashtra",
+      "description": "Clean industrial iron scrap pieces from steel manufacturing.",
+      "createdAt": "2026-09-20T10:00:00.000Z"
+    },
+    {
+      "id": "waste_2",
+      "companyId": "comp_b",
+      "companyName": "Company B",
+      "companyEmail": "companyb@gmail.com",
+      "title": "Fly Ash",
+      "category": "Minerals & Construction",
+      "quantity": 400,
+      "unit": "Tons",
+      "pricePerUnit": 10,
+      "purityPercentage": 95,
+      "frequency": "Recurring (Monthly)",
+      "location": "Gujarat",
+      "description": "Fine fly ash from furnace boilers, suitable for cement and bricks.",
+      "createdAt": "2026-09-22T09:15:00.000Z"
+    },
+    {
+      "id": "waste_3",
+      "companyId": "comp_c",
+      "companyName": "Company C",
+      "companyEmail": "companyc@gmail.com",
+      "title": "Wood Waste",
+      "category": "Wood & Biomass",
+      "quantity": 120,
+      "unit": "Tons",
+      "pricePerUnit": 12,
+      "purityPercentage": 99,
+      "frequency": "Recurring (Weekly)",
+      "location": "Karnataka",
+      "description": "Clean wood dust and timber offcuts from furniture cutting.",
+      "createdAt": "2026-09-25T11:00:00.000Z"
+    },
+    {
+      "id": "waste_4",
+      "companyId": "comp_d",
+      "companyName": "Company D",
+      "companyEmail": "companyd@gmail.com",
+      "title": "Plastic Waste",
+      "category": "Plastics & Polymers",
+      "quantity": 90,
+      "unit": "Tons",
+      "pricePerUnit": 22,
+      "purityPercentage": 96,
+      "frequency": "Recurring (Monthly)",
+      "location": "Tamil Nadu",
+      "description": "Clean sorted industrial plastic scrap and packaging cuts.",
+      "createdAt": "2026-09-26T16:20:00.000Z"
+    },
+    {
+      "id": "waste_5",
+      "companyId": "comp_e",
+      "companyName": "Company E",
+      "companyEmail": "companye@gmail.com",
+      "title": "Paper Waste",
+      "category": "Paper & Packaging",
+      "quantity": 100,
+      "unit": "Tons",
+      "pricePerUnit": 8,
+      "purityPercentage": 98,
+      "frequency": "Recurring (Weekly)",
+      "location": "Telangana",
+      "description": "Clean cardboard cutouts and shredded paper scraps.",
+      "createdAt": "2026-09-28T08:45:00.000Z"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "req_1",
+      "companyId": "comp_b",
+      "companyName": "Company B",
+      "companyEmail": "companyb@gmail.com",
+      "title": "Iron Scrap",
+      "category": "Metals & Metallurgy",
+      "quantityNeeded": 200,
+      "unit": "Tons",
+      "maxPricePerUnit": 18,
+      "urgency": "Continuous Contract",
+      "location": "Gujarat",
+      "description": "Require clean iron scrap for heavy material mixing.",
+      "createdAt": "2026-09-18T11:30:00.000Z"
+    },
+    {
+      "id": "req_2",
+      "companyId": "comp_a",
+      "companyName": "Company A",
+      "companyEmail": "companya@gmail.com",
+      "title": "Fly Ash",
+      "category": "Minerals & Construction",
+      "quantityNeeded": 250,
+      "unit": "Tons",
+      "maxPricePerUnit": 12,
+      "urgency": "Continuous Contract",
+      "location": "Maharashtra",
+      "description": "Need fly ash material for refractory blocks.",
+      "createdAt": "2026-09-21T10:00:00.000Z"
+    },
+    {
+      "id": "req_3",
+      "companyId": "comp_e",
+      "companyName": "Company E",
+      "companyEmail": "companye@gmail.com",
+      "title": "Wood Waste",
+      "category": "Wood & Biomass",
+      "quantityNeeded": 80,
+      "unit": "Tons",
+      "maxPricePerUnit": 15,
+      "urgency": "Continuous Contract",
+      "location": "Telangana",
+      "description": "Require wood waste and sawdust for paper pulp blend.",
+      "createdAt": "2026-09-24T13:00:00.000Z"
+    },
+    {
+      "id": "req_4",
+      "companyId": "comp_c",
+      "companyName": "Company C",
+      "companyEmail": "companyc@gmail.com",
+      "title": "Plastic Waste",
+      "category": "Plastics & Polymers",
+      "quantityNeeded": 50,
+      "unit": "Tons",
+      "maxPricePerUnit": 25,
+      "urgency": "Immediate",
+      "location": "Karnataka",
+      "description": "Require clean plastic waste for composite plastic-wood planks.",
+      "createdAt": "2026-09-27T15:10:00.000Z"
+    },
+    {
+      "id": "req_5",
+      "companyId": "comp_d",
+      "companyName": "Company D",
+      "companyEmail": "companyd@gmail.com",
+      "title": "Paper Waste",
+      "category": "Paper & Packaging",
+      "quantityNeeded": 60,
+      "unit": "Tons",
+      "maxPricePerUnit": 10,
+      "urgency": "Weekly Contract",
+      "location": "Tamil Nadu",
+      "description": "Need clean paper waste for molded packaging boxes.",
+      "createdAt": "2026-09-29T10:15:00.000Z"
+    }
+  ],
+  "dealRequests": [
+    {
+      "id": "req_deal_101",
+      "wasteListingId": "waste_1",
+      "wasteTitle": "Iron Scrap",
+      "buyerCompanyId": "comp_b",
+      "buyerCompanyName": "Company B",
+      "buyerCompanyEmail": "companyb@gmail.com",
+      "sellerCompanyId": "comp_a",
+      "sellerCompanyName": "Company A",
+      "sellerCompanyEmail": "companya@gmail.com",
+      "requestedQuantity": 100,
+      "unit": "Tons",
+      "offeredPricePerUnit": 15,
+      "totalValue": 1500,
+      "status": "accepted",
+      "initialMessage": "Hi Company A, we want to buy 100 Tons of Iron Scrap at ₹15/Ton.",
+      "createdAt": "2026-09-28T14:00:00.000Z",
+      "updatedAt": "2026-09-29T09:30:00.000Z"
+    }
+  ],
+  "chatMessages": [
+    {
+      "id": "msg_1",
+      "dealRequestId": "req_deal_101",
+      "senderCompanyId": "comp_b",
+      "senderCompanyName": "Company B",
+      "receiverCompanyId": "comp_a",
+      "receiverCompanyName": "Company A",
+      "text": "Hi Company A, we want to buy 100 Tons of Iron Scrap at ₹15/Ton.",
+      "createdAt": "2026-09-28T14:00:00.000Z"
+    },
+    {
+      "id": "msg_2",
+      "dealRequestId": "req_deal_101",
+      "senderCompanyId": "comp_a",
+      "senderCompanyName": "Company A",
+      "receiverCompanyId": "comp_b",
+      "receiverCompanyName": "Company B",
+      "text": "Hello Company B! We agree to supply 100 Tons at ₹15/Ton. When can you collect the material?",
+      "createdAt": "2026-09-28T15:20:00.000Z"
+    },
+    {
+      "id": "msg_3",
+      "dealRequestId": "req_deal_101",
+      "senderCompanyId": "comp_b",
+      "senderCompanyName": "Company B",
+      "receiverCompanyId": "comp_a",
+      "receiverCompanyName": "Company A",
+      "text": "We can collect it next Monday with our trucks. Accepted!",
+      "createdAt": "2026-09-29T09:30:00.000Z"
+    }
+  ],
+  "history": [
+    {
+      "id": "hist_1",
+      "dealRequestId": "hist_deal_seed_1",
+      "wasteTitle": "Iron Scrap",
+      "sellerCompanyId": "comp_a",
+      "sellerCompanyName": "Company A",
+      "buyerCompanyId": "comp_b",
+      "buyerCompanyName": "Company B",
+      "quantity": 150,
+      "unit": "Tons",
+      "finalPricePerUnit": 14,
+      "totalValue": 2100,
+      "completedAt": "2026-08-25T11:30:00.000Z",
+      "completedDate": "Aug 25, 2026",
+      "completedTime": "11:30 AM",
+      "formattedDateTime": "Aug 25, 2026 at 11:30 AM",
+      "landfillDivertedTonnes": 150,
+      "co2SavedTonnes": 90,
+      "notes": "Material collected and delivered successfully."
+    },
+    {
+      "id": "hist_2",
+      "dealRequestId": "hist_deal_seed_2",
+      "wasteTitle": "Fly Ash",
+      "sellerCompanyId": "comp_b",
+      "sellerCompanyName": "Company B",
+      "buyerCompanyId": "comp_a",
+      "buyerCompanyName": "Company A",
+      "quantity": 80,
+      "unit": "Tons",
+      "finalPricePerUnit": 10,
+      "totalValue": 800,
+      "completedAt": "2026-09-10T14:15:00.000Z",
+      "completedDate": "Sep 10, 2026",
+      "completedTime": "02:15 PM",
+      "formattedDateTime": "Sep 10, 2026 at 02:15 PM",
+      "landfillDivertedTonnes": 80,
+      "co2SavedTonnes": 64,
+      "notes": "Delivered in bulk containers."
+    }
+  ],
+  "teamMembers": {
+    "comp_a": [
+      {
+        "id": "mem_1",
+        "email": "manager@companya.in",
+        "role": "Admin",
+        "joinedDate": "Sep 15, 2026"
+      },
+      {
+        "id": "mem_2",
+        "email": "operations@companya.in",
+        "role": "Facility Manager",
+        "joinedDate": "Sep 20, 2026"
+      }
+    ],
+    "comp_apex": [
+      {
+        "id": "#1",
+        "email": "admin@greenvalley.com",
+        "role": "Admin",
+        "joinedDate": "02/10/2026"
+      }
+    ]
+  },
+  "emailNotifications": []
+}

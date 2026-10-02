@@ -1,0 +1,19 @@
+{
+  "name": "waste2worth-platform",
+  "version": "1.0.0",
+  "description": "Waste2Worth - B2B Industrial Symbiosis & Circular Economy Platform",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && npm install && node index.js",
+    "dev": "node server/index.js"
+  },
+  "keywords": [
+    "waste2worth",
+    "circular-economy",
+    "industrial-symbiosis"
+  ],
+  "author": "Waste2Worth Alliance",
+  "license": "ISC"
+}
