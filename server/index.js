@@ -814,6 +814,6 @@ if (fs.existsSync(CLIENT_DIST)) {
   });
 }
 
-app.listen(PORT, () => {
-  console.log(`♻️ Waste2Worth Server running on http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`♻️ Waste2Worth Server running on port ${PORT}`);
 });
